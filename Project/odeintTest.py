@@ -9,7 +9,6 @@ L = 1.0  # Henrys
 C = 1.0  # Farads
 
 I0 = 1.0
-dI0_dt = 0.0
 
 # Define the RLC ODE
 def rlc_ode(t, y, alpha, omega_0):
